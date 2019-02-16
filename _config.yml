@@ -88,6 +88,9 @@ css_inline: true # Will insert all styles into a single <style> block in the <he
 navigation_header:
   Home: /
 
+navigation_footer:
+  Created by Kameron Kales: https://kameronkales.com
+
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Twitter: https://twitter.com/kameronkales
   LinkedIn: https://www.linkedin.com/in/kameronkales
