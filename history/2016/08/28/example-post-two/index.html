@@ -83,76 +83,24 @@
 
     <header class="header">
   <div class="container">
-    <a class="logo" href="/">
-  <img src="/assets/logo.svg" alt="MyStartupRisk logo"/>
-</a>
-
-
-    
-<nav class="nav  nav--header">
-  <ul class="list  list--nav">
-    
-
-      
-
-      <li class="item  item--nav">
-        <a href="/">Home</a>
-      </li>
-    
-  </ul>
-</nav>
-
-
-<template id="buttontoggle">
-  <button class="button  button--nav" aria-label="Menu toggle">
-    <svg width="16" height="16" class="icon  icon--nav" role="img" alt="Menu"><title>Menu</title><use xlink:href="#nav" fill="CurrentColor"></use></svg>
-
-  </button>
-</template>
-
-<script type="text/javascript">
-
-const nav = document.querySelector('.nav')
-const buttonTemplate = document.querySelector('#buttontoggle')
-const button = document.importNode(buttonTemplate.content, true)
-nav.appendChild(button)
-
-const applyToggle = (list, button, breakpoint) => {
-  const navList = document.querySelector(list)
-  if (document.body.clientWidth < breakpoint) {
-    const navHeight = navList.clientHeight
-    const navButton = document.querySelector(button)
-    navList.style.maxHeight = '0px'
-
-    navButton.onclick = () => {
-      if (navList.style.maxHeight == '0px') {
-        navList.style.maxHeight = `${navHeight}px`
-      } else {
-        navList.style.maxHeight = '0px'
-      }
-    }
-  }
-}
-
-applyToggle('.list--nav', '.button', 640)
-
-</script>
-
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/apple-icon-60x60.png ">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/assets/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href=" /assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+    <link rel="manifest" href="/assets/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/assets/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
   </div>
-
-  
-
-
-
-
-  <div class="feature">
-    <div class="container  typeset">
-      <p>The History of the Alembic tool</p>
-
-    </div>
-  </div>
-
-
 
 </header>
 
